@@ -1,0 +1,52 @@
+.hero {
+  width: 39.5rem;
+  padding: 2.25rem;
+  border-radius: 1.2rem;
+  background-color: white;
+  &__img {
+    width: 35rem;
+    margin-bottom: 1.6rem;
+    img {
+      width: 100%;
+      border-radius: 1.2rem;
+    }
+  }
+  &__name {
+    font-size: 2.4rem;
+    color: $color-gray-two;
+  }
+  &__position {
+    display: block;
+    margin-bottom: 1.6rem;
+    font-size: 1.4rem;
+    color: $color-gray-three;
+  }
+  &__contact {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 1.6rem;
+    &-logo {
+      display: inline-block;
+      width: 2.4rem;
+      height: 2.4rem;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .one-logo {
+      background-image: url(../assets/logos/email.svg);
+    }
+    .two-logo {
+      background-image: url(../assets/logos/phone.svg);
+    }
+    &__contact-text {
+      font-size: 1.2rem;
+      color: $color-gray-two;
+    }
+  }
+  &__text {
+    width: 30rem;
+    font-size: 1.6rem;
+    color: $color-gray-three;
+  }
+}
