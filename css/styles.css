@@ -73,4 +73,41 @@ body {
   color: #828282;
 }
 
+.frontend,
+.design {
+  width: 39.5rem;
+  margin-top: 2.4rem;
+  padding: 2.4rem;
+  border-radius: 1.2rem;
+  background-color: #ffffff;
+}
+.frontend__title,
+.design__title {
+  margin-bottom: 1.6rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #4f4f4f;
+}
+.frontend__skill,
+.design__skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35.5rem;
+}
+.frontend__skill progress,
+.design__skill progress {
+  width: 24.5rem;
+  height: 1.6rem;
+}
+.frontend__skill p,
+.design__skill p {
+  font-size: 1.4rem;
+  color: #4f4f4f;
+}
+.frontend__skill:not(:last-child),
+.design__skill:not(:last-child) {
+  margin-bottom: 0.8rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
