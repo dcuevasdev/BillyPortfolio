@@ -195,4 +195,75 @@ body {
   margin-bottom: 2.4rem;
 }
 
+.projects {
+  width: 79rem;
+  margin-top: 2.4rem;
+}
+.projects__title, .projects__item {
+  padding: 2.4rem;
+  border-radius: 1.2rem;
+  color: #4f4f4f;
+  background-color: #ffffff;
+}
+.projects__item:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+.projects__title {
+  height: 4.6rem;
+  margin-bottom: 2.4rem;
+  padding: 1.4rem 2.4rem;
+}
+.projects__item {
+  display: flex;
+  justify-content: space-between;
+}
+.projects__item-img {
+  width: 24rem;
+  height: 20.1rem;
+}
+.projects__item-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1.2rem;
+  object-fit: cover;
+}
+.projects__item-info {
+  width: 46rem;
+}
+.projects__item-info .info__hash {
+  margin-bottom: 0.4rem;
+  font-size: 1.2rem;
+  color: #4f4f4f;
+}
+.projects__item-info .info__title {
+  margin-bottom: 0.8rem;
+  font-size: 1.8rem;
+  color: #333333;
+}
+.projects__item-info .info__text {
+  margin-bottom: 2.4rem;
+  font-size: 1.4rem;
+  color: #828282;
+}
+.projects__item-info .info__buttons .button {
+  width: 11.8rem;
+  height: 3.6rem;
+  margin-right: 1.4rem;
+  border: none;
+  border-radius: 0.8rem;
+  outline: none;
+}
+.projects__item-info .info__buttons .button:hover {
+  cursor: pointer;
+}
+.projects__item-info .info__buttons .button__one {
+  color: #ffffff;
+  background-color: #2f80ed;
+}
+.projects__item-info .info__buttons .button__two {
+  color: #2f80ed;
+  border: 1px solid #2f80ed;
+  background-color: #ffffff;
+}
+
 /*# sourceMappingURL=styles.css.map */
