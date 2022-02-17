@@ -20,6 +20,12 @@ body {
   background-color: #f2f2f2;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
 .hero {
   width: 39.5rem;
   padding: 2.25rem;
@@ -76,7 +82,7 @@ body {
 .frontend,
 .design {
   width: 39.5rem;
-  margin-top: 2.4rem;
+  height: fit-content;
   padding: 2.4rem;
   border-radius: 1.2rem;
   background-color: #ffffff;
@@ -156,6 +162,7 @@ body {
 }
 
 .hobbies {
+  grid-column: 1/2;
   width: 39.5rem;
   margin-top: 2.4rem;
   padding: 2.4rem;
@@ -196,8 +203,10 @@ body {
 }
 
 .projects {
+  grid-column: 2/4;
+  grid-row: 2;
   width: 79rem;
-  margin-top: 2.4rem;
+  margin-top: -30.6rem;
 }
 .projects__title, .projects__item {
   padding: 2.4rem;
@@ -267,8 +276,9 @@ body {
 }
 
 .blogs {
+  grid-column: 2/4;
   width: 79rem;
-  margin-top: 2.4rem;
+  margin-top: -10rem;
 }
 .blogs__title, .blogs__entries {
   padding: 2.4rem;

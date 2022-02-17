@@ -13,3 +13,9 @@ body {
   padding: 2.4rem;
   background-color: rgba(242, 242, 242, 1);
 }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
